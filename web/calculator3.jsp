@@ -32,7 +32,7 @@
         </nav>
         <div class="container">
             <div class="row">
-                <form id="rectForm" method="POST" action="calc3?action=rect">
+                <form id="rectForm" method="POST" action="calc3?action=rect" name="calc1">
                     <h4 class="col m4">Rectangle</h4>
                     <div class="input-field col m4">
                         <label for="width">Width</label>
@@ -46,7 +46,7 @@
                 </form>
             </div>
             <div class="row">
-                <form id="circForm" method="POST" action="calc3?action=circ">
+                <form id="circForm" method="POST" action="calc3?action=circ" name="calc2">
                     <h4 class="col m4">Circle</h4>
                     <div class="input-field offset-m4 col m4">
                         <label for="width">Radius</label>
@@ -56,7 +56,7 @@
                 </form>
             </div>
             <div class="row">
-                <form id="triForm" method="POST" action="calc3?action=tri">
+                <form id="triForm" method="POST" action="calc3?action=tri" name="calc3">
                     <h4 class="col m4">Triangle</h4>
                     <div class="input-field col m4">
                         <label for="width">Width</label>
@@ -73,7 +73,7 @@
             </div>
             <footer class="footer">
             <div class="container">
-                Created by Scott Muth
+                <p>Created by Scott Muth</p>
             </div>
         </footer>
             <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.3.min.js"></script>

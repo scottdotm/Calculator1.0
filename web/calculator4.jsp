@@ -27,7 +27,7 @@
         </nav>
         <div class="container">
             <div class="row">
-                <form id="rectForm" method="POST" action="calc4?action=rect">
+                <form id="rectForm" method="POST" action="calc4?action=rect" name="calc1">
                     <h4 class="col m4">Rectangle</h4>
                     <div class="input-field col m4">
                         <label for="width">Width</label>
@@ -41,7 +41,7 @@
                 </form>
             </div>
             <div class="row">
-                <form id="circForm" method="POST" action="calc4?action=circ">
+                <form id="circForm" method="POST" action="calc4?action=circ" name="calc2">
                     <h4 class="col m4">Circle</h4>
                     <div class="input-field offset-m4 col m4">
                         <label for="width">Radius</label>
@@ -51,7 +51,7 @@
                 </form>
             </div>
             <div class="row">
-                <form id="triForm" method="POST" action="calc4?action=tri">
+                <form id="triForm" method="POST" action="calc4?action=tri" name="calc3">
                     <h4 class="col m4">Triangle</h4>
                     <div class="input-field col m4">
                         <label for="width">Width</label>
