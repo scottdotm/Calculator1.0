@@ -10,7 +10,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Rectangle Calculator</title>
-        <link href="css/materialize.min.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
         <link href="css/custom.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
@@ -31,7 +31,7 @@
             </div>
         </nav>
         <div class="container">
-            <form id="rectForm" method="POST" action="calc2">
+            <form id="rectForm" method="POST" action="calc2" name="calc1">
                 <label for="width">Width</label>
                 <input type="number" name="width" id="width" required="required" placeholder="Width" />
                 <label for="height">Height</label>

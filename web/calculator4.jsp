@@ -9,7 +9,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link href="css/materialize.min.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
         <link href="css/custom.css" rel="stylesheet" type="text/css"/>
         <title>Calculator 4</title>
     </head>
@@ -72,7 +72,7 @@
                 </div>
             </footer>
             <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
-            <script type="text/javascript" src="js/materialize.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
             <script type="text/javascript" src="js/custom.js"></script>
         </div>
     </body>
